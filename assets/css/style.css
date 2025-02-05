@@ -16680,6 +16680,10 @@ li.has-dropdown:hover .submenu {
   max-width: max-content;
   position: relative;
   font-family: var(--font-medium);
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .single-nav-area-footer ul li a::after {
   position: absolute;

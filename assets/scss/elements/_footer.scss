@@ -21,6 +21,10 @@
                 max-width: max-content;
                 position: relative;
                 font-family: var(--font-medium);
+                display: block;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
 
                 &::after {
                     position: absolute;
