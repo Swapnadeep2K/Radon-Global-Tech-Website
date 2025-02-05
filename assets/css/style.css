@@ -20140,4 +20140,10 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
     display: none;
   }
 }
+.overflow-text {
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
 /*# sourceMappingURL=../maps/style.css.map */
