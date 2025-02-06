@@ -16720,7 +16720,7 @@ li.has-dropdown:hover .submenu {
   margin-bottom: 20px;
 }
 .rts-footer-area .logo-area {
-  max-width: 322px;
+  max-width: 400px;
 }
 @media only screen and (max-width: 991px) {
   .rts-footer-area .logo-area {
@@ -16743,7 +16743,7 @@ li.has-dropdown:hover .submenu {
   align-items: center;
   justify-content: space-between;
   padding: 27px 0;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 @media only screen and (max-width: 575px) {
   .rts-copyright-area-one .copyright-wrapper {

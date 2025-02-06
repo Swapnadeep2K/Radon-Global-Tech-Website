@@ -70,7 +70,7 @@
     }
 
     .logo-area {
-        max-width: 322px;
+        max-width: 400px;
 
         @media #{$mdsm-layout} {
             max-width: 100%;
@@ -94,7 +94,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 27px 0;
-        padding-bottom: 70px;
+        padding-bottom: 30px;
 
         @media #{$large-mobile} {
             flex-direction: column;
