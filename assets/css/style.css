@@ -12300,7 +12300,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 .title-area-center-inner-with-sub p.disc {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -13557,7 +13557,7 @@ li.has-dropdown:hover .submenu {
 }
 .banner-four-area .banner-four-wrapper p.disc {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -13653,7 +13653,7 @@ li.has-dropdown:hover .submenu {
 .banner-inner-wrapper-five p.disc {
   max-width: 85%;
   margin: auto;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   margin-bottom: 45px;
 }
@@ -13813,7 +13813,7 @@ li.has-dropdown:hover .submenu {
 }
 
 .why-choose-intro-disc p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -13992,12 +13992,12 @@ li.has-dropdown:hover .submenu {
 }
 
 .what-we-do-wrapper-about p.disc {
-  font-size: 36px;
+  font-size: 18px;
   line-height: 1.5;
 }
 @media only screen and (max-width: 767px) {
   .what-we-do-wrapper-about p.disc {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
@@ -14006,7 +14006,7 @@ li.has-dropdown:hover .submenu {
   margin-bottom: 18px;
 }
 .what-we-do-main-wrapper p.disc {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
 }
 .what-we-do-main-wrapper .rts-btn {
@@ -14141,7 +14141,7 @@ li.has-dropdown:hover .submenu {
 }
 .title-video-top p.disc {
   display: block;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.5;
   color: #262626;
 }
@@ -14158,7 +14158,7 @@ li.has-dropdown:hover .submenu {
   margin-top: 70px;
 }
 .large-video-bottom p.disc {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
 }
 .large-video-bottom .title {
@@ -14575,7 +14575,7 @@ li.has-dropdown:hover .submenu {
 .project-style-5-title-between p.disc {
   max-width: 50%;
   margin-left: auto;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
 }
 @media only screen and (max-width: 767px) {
@@ -15550,7 +15550,7 @@ li.has-dropdown:hover .submenu {
   }
 }
 .single-testimonials-about p.disc {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   margin-bottom: 45px;
 }
@@ -16734,7 +16734,7 @@ li.has-dropdown:hover .submenu {
   }
 }
 .cta-main-wrapper-area-four .inner p.disc {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   color: #262626;
 }
@@ -16948,7 +16948,7 @@ li.has-dropdown:hover .submenu {
   font-weight: 500;
   max-width: max-content;
   position: relative;
-  font-family: var(--font-medium);
+  font-family: var(--font-primary);
   display: block;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -17529,7 +17529,7 @@ li.has-dropdown:hover .submenu {
 }
 .single-service-list p.disc {
   max-width: 640px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
 }
 .single-service-list .icon {
@@ -17682,7 +17682,7 @@ li.has-dropdown:hover .submenu {
   }
 }
 .service-area-details-wrapper .mid-content p.disc {
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.5;
 }
 @media only screen and (max-width: 1199px) {
