@@ -17645,7 +17645,7 @@ li.has-dropdown:hover .submenu {
 .service-area-details-wrapper .top {
   text-align: center;
   margin: auto;
-  margin-top: -220px;
+  /* margin-top: -120px; */
   padding-top: 80px;
   max-width: 60%;
 }
@@ -17692,7 +17692,7 @@ li.has-dropdown:hover .submenu {
 }
 
 .thumbnail-area-large-service-detaile-mid {
-  height: 700px;
+  height: 500px;
   clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%, 0% 5%);
 }
 @media only screen and (max-width: 1199px) {
