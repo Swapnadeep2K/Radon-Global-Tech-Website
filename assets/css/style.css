@@ -18515,17 +18515,17 @@ li.has-dropdown:hover .submenu {
 }
 .single-job-opening-card p span {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   color: #050d20;
 }
 .single-job-opening-card .tag-wrapper {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 @media only screen and (max-width: 575px) {
   .single-job-opening-card .tag-wrapper {
-    flex-wrap: wrap;
     gap: 25px;
   }
 }
@@ -20514,7 +20514,11 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   padding-top: 60px;
 }
 .rts-section-gap-60 {
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.rts-section-gapBottom-60 {
+  padding-bottom: 60px;
 }
 li.disc {
   list-style-type: circle;
