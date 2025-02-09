@@ -20517,7 +20517,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   padding: 60px 0;
 }
 li.disc {
-  list-style-type: none;
+  list-style-type: circle;
   font-size: 18px;
   line-height: 1.5;
   font-weight: var(--p-regular);
