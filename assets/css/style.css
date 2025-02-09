@@ -14018,7 +14018,7 @@ li.has-dropdown:hover .submenu {
 
 .thumbnail-about-mid {
   clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%, 0% 5%);
-  height: 750px !important;
+  height: 500px !important;
 }
 @media only screen and (max-width: 1199px) {
   .thumbnail-about-mid {
