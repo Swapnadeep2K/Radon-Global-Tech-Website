@@ -19319,7 +19319,7 @@ li.has-dropdown:hover .submenu {
 }
 .coming-soon-wrapper-main h3 {
   font-size: 62px;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
 }
 @media only screen and (max-width: 575px) {
   .coming-soon-wrapper-main h3 {
@@ -19330,7 +19330,7 @@ li.has-dropdown:hover .submenu {
   font-size: 18px;
   max-width: 40%;
   margin: auto;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   font-size: 22px;
   line-height: 1.6;
 }
