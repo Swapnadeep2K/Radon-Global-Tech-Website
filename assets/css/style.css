@@ -20527,4 +20527,12 @@ li.disc {
   font-weight: var(--p-regular);
   color: var(--color-body);
 }
+.main-information-area {
+  width: 50vw;
+}
+@media only screen and (max-width: 991px) {
+  .main-information-area {
+    width: auto;
+  }
+}
 /*# sourceMappingURL=../maps/style.css.map */
