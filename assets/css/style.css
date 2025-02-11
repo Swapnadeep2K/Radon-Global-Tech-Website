@@ -18271,6 +18271,10 @@ li.has-dropdown:hover .submenu {
   border-bottom: 1px solid #d1d1d1;
 }
 
+.section-seperator-t {
+  border-top: 1px solid #d1d1d1;
+}
+
 .why-choose-us-faq-area {
   background: linear-gradient(101.07deg, #f8faff 2.25%, #fdf8ff 85.45%);
 }
