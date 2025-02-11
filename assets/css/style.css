@@ -16941,7 +16941,7 @@ li.has-dropdown:hover .submenu {
   list-style: none;
 }
 .single-nav-area-footer ul li {
-  margin: 10px 0;
+  margin: 8px 0;
 }
 .single-nav-area-footer ul li a {
   color: #262626;
@@ -16984,6 +16984,10 @@ li.has-dropdown:hover .submenu {
   right: 0;
 }
 
+.rts-footer-area {
+  padding-top: 40px !important;
+}
+
 .rts-footer-area .logo {
   display: block;
   margin-bottom: 20px;
@@ -17012,7 +17016,6 @@ li.has-dropdown:hover .submenu {
   align-items: center;
   justify-content: space-around;
   padding: 27px 0;
-  padding-bottom: 30px;
 }
 @media only screen and (max-width: 575px) {
   .rts-copyright-area-one .copyright-wrapper {
@@ -17048,7 +17051,10 @@ li.has-dropdown:hover .submenu {
 
 .gradient-footer-wrapper {
   /* background: linear-gradient(180deg, #FFFFFF 0%, #F5F5FF 100%); */
-  background: #d7d3e3ba;
+  /* background: #d7d3e3ba; */
+  border-top: 1px solid #d1d1d1;
+  background: url(/assets/images/elegant-white-background-with-blue-wave-lines.jpg);
+  background-size: cover;
 }
 
 .bg_color-dark-5 {
@@ -17288,9 +17294,22 @@ li.has-dropdown:hover .submenu {
 .single-service-area-4 {
   border: 1px solid #d1d1d1;
   padding: 48px 32px;
-  background: #ffffff;
+  position: relative;
+  background: none;
   transition: 0.3s;
   height: 100%;
+}
+.single-service-area-4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/assets/images/product/light-bg.avif) no-repeat center center;
+  background-size: cover;
+  opacity: 1; /* Adjust opacity (0.0 - fully transparent, 1.0 - fully visible) */
+  z-index: -1; /* Place it behind the content */
 }
 .single-service-area-4.in-about-page {
   box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08),
