@@ -16941,7 +16941,7 @@ li.has-dropdown:hover .submenu {
   list-style: none;
 }
 .single-nav-area-footer ul li {
-  margin: 17px 0;
+  margin: 10px 0;
 }
 .single-nav-area-footer ul li a {
   color: #262626;
@@ -16989,7 +16989,7 @@ li.has-dropdown:hover .submenu {
   margin-bottom: 20px;
 }
 .rts-footer-area .logo-area {
-  max-width: 400px;
+  max-width: 450px;
 }
 @media only screen and (max-width: 991px) {
   .rts-footer-area .logo-area {
@@ -20533,6 +20533,42 @@ li.disc {
 @media only screen and (max-width: 991px) {
   .main-information-area {
     width: auto;
+  }
+}
+
+.typing-text-container {
+  /*This part is important for centering*/
+  display: grid;
+}
+
+.typing-text {
+  animation: typing 5s steps(22) infinite, blink .5s infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+
+@keyframes typing {
+  0% { width: 0; }
+  50% { width: 22ch; } /* Text fully typed */
+  75% { width: 22ch; } /* Pause for 1 sec */
+  100% { width: 0; } /* Erase effect */
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .banner-four-area .banner-four-wrapper .title > span {
+    font-size: 6vw;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .banner-four-area .banner-four-wrapper .title > span {
+    font-size: 5vw;
   }
 }
 /*# sourceMappingURL=../maps/style.css.map */
