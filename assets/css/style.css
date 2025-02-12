@@ -16936,7 +16936,7 @@ li.has-dropdown:hover .submenu {
 .single-nav-area-footer p.parent {
   color: #0e0da1;
   font-size: 16px;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   margin-bottom: 15px;
   font-family: var(--font-primary);
 }
